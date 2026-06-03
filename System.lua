@@ -1,8 +1,8 @@
-if _G.8Ball == true then
+if _G.NBall == true then
 	warn("Script 8Ball đã run, không thể run tiếp.")
 	return
 end
-_G.8Ball = true
+_G.NBall = true
 
 -- Load UI
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/8BallAim/refs/heads/main/UI.lua"))()
