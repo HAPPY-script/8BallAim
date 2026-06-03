@@ -717,7 +717,7 @@ local function updateBallText()
 	if ball then
 		BallText.Text = "Ball [" .. ball.Name .. "]"
 	else
-		BallText.Text = "Ball [None]"
+		BallText.Text = "Ball [?]"
 	end
 end
 
